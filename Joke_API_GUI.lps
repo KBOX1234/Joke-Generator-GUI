@@ -28,10 +28,9 @@
       </Unit>
       <Unit>
         <Filename Value=".gitignore"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="17"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="44" Y="2"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
     </Units>
