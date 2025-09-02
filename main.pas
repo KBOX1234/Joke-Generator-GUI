@@ -205,7 +205,25 @@ begin
 end;
 
 procedure TForm1.add_wordClick(Sender: TObject);
+var
+   jsonObj: TJSONObject;
+   jsonString: string;
+   client: TFPHTTPClient;
+   jsonStream: TStringStream;
 begin
+       jsonObj := TJSONObject.Create;
+       client := TFPHTTPClient.Create(nil);
+
+     jsonObj.add('key', key);
+     jsonObj.add('word', Self.new_word.Text);
+     jsonObj.add('type', word_type.Text);
+
+     jsonString := jsonObj.AsJSON;
+
+     client.AddHeader('Content-Type', 'application/json');
+
+     jsonStream := TStringStream.Create(jsonString, TEncoding.UTF8);
+     client.SimplePost('https://api.stanghelle.org/submit', jsonStream);
 
 end;
 

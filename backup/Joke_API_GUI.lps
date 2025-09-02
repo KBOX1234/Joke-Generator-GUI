@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos Y="28"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,9 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="183"/>
-        <CursorPos Y="229"/>
-        <UsageCount Value="26"/>
+        <TopLine Value="196"/>
+        <CursorPos X="71" Y="226"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -36,25 +36,13 @@
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-web\src\base\fphttpclient.pp"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="1541"/>
-        <CursorPos X="31" Y="1567"/>
+        <TopLine Value="187"/>
+        <CursorPos Y="209"/>
         <UsageCount Value="12"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="Joke_API_GUI.lpr"/>
-        <Caret Line="28"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="86" Column="52" TopLine="61"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="95" Column="36" TopLine="57"/>
-      </Position>
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="94" Column="39" TopLine="57"/>
@@ -78,10 +66,6 @@
       <Position>
         <Filename Value="main.pas"/>
         <Caret Line="133" Column="6" TopLine="91"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="88" Column="54" TopLine="135"/>
       </Position>
       <Position>
         <Filename Value="main.pas"/>
@@ -162,6 +146,22 @@
       <Position>
         <Filename Value="Joke_API_GUI.lpr"/>
         <Caret Line="28"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="222" Column="77" TopLine="196"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="238" TopLine="190"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="214" Column="8" TopLine="190"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="226" Column="26" TopLine="190"/>
       </Position>
     </JumpHistory>
     <RunParams>
