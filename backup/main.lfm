@@ -1,19 +1,75 @@
 object Form1: TForm1
   Left = 1520
-  Height = 240
+  Height = 341
   Top = 117
-  Width = 320
-  Caption = 'Form1'
-  ClientHeight = 240
-  ClientWidth = 320
+  Width = 227
+  Caption = 'Joke Generator GUI'
+  ClientHeight = 341
+  ClientWidth = 227
   OnCreate = FormCreate
   object Generate_Joke: TButton
-    Left = 104
+    Left = 10
     Height = 25
-    Top = 104
-    Width = 96
+    Top = 8
+    Width = 206
     Caption = 'Generate_Joke'
     TabOrder = 0
     OnClick = Generate_JokeClick
+  end
+  object email: TEdit
+    Left = 10
+    Height = 23
+    Top = 48
+    Width = 206
+    TabOrder = 1
+    Text = 'email'
+    OnChange = emailChange
+  end
+  object password: TEdit
+    Left = 10
+    Height = 23
+    Top = 88
+    Width = 206
+    TabOrder = 2
+    Text = 'password'
+  end
+  object add_word: TButton
+    Left = 10
+    Height = 25
+    Top = 176
+    Width = 206
+    Caption = 'add_word'
+    TabOrder = 3
+    OnClick = add_wordClick
+  end
+  object new_word: TEdit
+    Left = 10
+    Height = 23
+    Top = 272
+    Width = 206
+    TabOrder = 4
+    Text = 'new_word'
+  end
+  object word_type: TComboBox
+    AnchorSideRight.Control = new_word
+    AnchorSideRight.Side = asrBottom
+    Left = 10
+    Height = 23
+    Top = 224
+    Width = 206
+    Anchors = [akTop, akLeft, akRight]
+    ItemHeight = 15
+    TabOrder = 5
+    Text = 'word_type'
+    OnChange = word_typeChange
+  end
+  object login: TButton
+    Left = 10
+    Height = 25
+    Top = 134
+    Width = 206
+    Caption = 'login'
+    TabOrder = 6
+    OnClick = loginClick
   end
 end
